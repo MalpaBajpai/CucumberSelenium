@@ -11,7 +11,7 @@ public class loginSteps {
 
 	}
 
-	@Given("^User want to launch the application$")
+	@Given("^User want to launch the amazon application$")
 	public void user_want_to_launch_the_application() {
 		System.out.println("inside launch step");
 		//throw new io.cucumber.java.PendingException();

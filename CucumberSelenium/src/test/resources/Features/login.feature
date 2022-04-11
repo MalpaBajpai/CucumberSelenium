@@ -4,7 +4,7 @@
 Feature: Login to Amazon application
 
   Scenario Outline: Check login functionality
-    Given User want to launch the application
+    Given User want to launch the amazon application
     And I wil verify if application launched sucessfully
     When I enter <username> and <password>
     And I click on login button
